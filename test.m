@@ -1,4 +1,4 @@
-mex sheetmulti.c
+mex sheetmulti.c -lmwblas
 
 MN = 101*100;
 Kth = 201;
@@ -10,7 +10,7 @@ A = randn(MN,1);
 tic
 P1 = zeros(Kth,Kr);
 for i=1:Kr
-    P1(:,i) = R(:,:,i)'*A; 
+    P1(:,i) = R(:,:,i)'*A;
 end
 toc
 
