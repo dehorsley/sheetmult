@@ -1,6 +1,8 @@
 Sheetmult
 ==========
 
+**NOTE**: you probably don't want to use this anymore. MATLAB's JIT can now do just as good a job (if not better) as the in place version without using nasty undocumented APIs.
+
 This is a MATLAB C mex program to multiply two "sheets" (3D arrays) together.
 Eg:
 ```matlab
